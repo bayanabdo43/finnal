@@ -1,0 +1,32 @@
+
+aside .navv {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 21%;
+    translate: -270px;
+    z-index: 999;
+    img {
+        width: 50px;
+    }
+}
+
+main {
+    .maelName {
+        top: 110%;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        transition: all 1s;
+    }
+
+    .cardd {
+        overflow: hidden;
+        &:hover .maelName {
+            top: 0;
+        }
+    }
+
+
+}
